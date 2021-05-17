@@ -1,0 +1,22 @@
+.footer-header {
+    color: white;
+    font-size: 25px;
+    opacity: 80%;
+}
+
+.footer-links a {
+    color: white!important;
+    font-size: 15px;
+    opacity: 50%;
+}
+
+.page-footer {
+    background: #101A3A;
+    opacity: 80%;
+    margin-top: -300px!important;
+}
+
+.bottom {
+    color: white;
+    opacity: 30%;
+}

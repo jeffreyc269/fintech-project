@@ -1,0 +1,170 @@
+.about-body {
+  background-image: url(../images/background2.png);
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  height: 700px;
+  margin-top: 0 !important;
+}
+
+.jumbo {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.jumbo h1 {
+  font-size: 60px;
+}
+
+.jumbo p {
+  font-size: 25px;
+}
+
+/* information */
+
+.divider {
+  padding-bottom: 30px;
+}
+
+.partone {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 200px;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.first {
+  float: left;
+  width: 50%;
+  margin: 10px;
+}
+
+.card-title {
+  font-size: 50px;
+}
+
+.first p {
+  font-size: 20px;
+  color: white;
+  opacity: 70%;
+}
+
+/* what you learn */
+
+.learn {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 200px;
+}
+
+.head {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.learn h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  opacity: 85%;
+  padding-bottom: 20px;
+}
+
+.learn-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.learn-card {
+  text-align: center;
+  width: 400px;
+}
+
+.learn-card img {
+  margin-bottom: 20px;
+}
+
+.cardhead {
+  color: white;
+  opacity: 85%;
+  font-size: 35px;
+}
+.cardtext {
+  color: white;
+  opacity: 70%;
+  font-size: 17px;
+}
+
+/* key people */
+
+.key-people {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 400px;
+}
+
+.key-people-head h1 {
+  font-size: 50px;
+  color: white;
+  opacity: 85%;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.key-people-img {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.key-people-img img {
+  padding: 0px 20px 0px;
+}
+
+/* contact us */
+
+.contact-us {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 500px;
+}
+
+.cutext {
+  text-align: center;
+}
+
+.cutext p {
+  font-size: 20px;
+  color: white;
+  opacity: 80%;
+  margin-bottom: 100px;
+}
+
+.aboutbutton {
+  background: linear-gradient(to left, #183fc3, #2fb7f1)!important;
+  border: none;
+  padding: 10px 20px;
+}
+
+.cutext-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

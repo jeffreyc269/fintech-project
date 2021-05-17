@@ -1,0 +1,127 @@
+.content-body {
+  background-image: url(../images/background2.png);
+  height: 4300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* title */
+
+.title {
+  height: 900px;
+  padding-top: 100px;
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 50px;
+}
+
+.title-text {
+  margin-bottom: 100px;
+}
+
+.title-text h1 {
+  font-size: 50px;
+  color: white;
+  opacity: 80%;
+}
+
+.content-first {
+  display: flex;
+}
+
+@media screen and (max-width: 1390px) {
+  .content-first {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 200px;
+  }
+  .title {
+    margin-bottom: 200px;
+  }
+  .guidesduo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .negative {
+    margin-top: -100px;
+  }
+  .previous-carousel {
+    margin-bottom: 100px !important;
+  }
+}
+
+/* previous events */
+
+.previous {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 100px;
+}
+
+.card-text {
+  margin-top: 50px;
+}
+
+.previous-carousel {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 200px;
+}
+
+.previous-events-button {
+  margin-top: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* guides */
+
+.guides {
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.guides-text {
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.guides-text h1 {
+  font-size: 50px;
+  color: white;
+  opacity: 80%;
+}
+
+.guidesduo {
+  display: flex;
+}
+
+/* news articles */
+
+.news {
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.news-text {
+  margin-bottom: 100px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.news-text h1 {
+  font-size: 50px;
+  color: white;
+  opacity: 80%;
+}

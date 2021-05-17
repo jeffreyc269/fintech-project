@@ -1,0 +1,159 @@
+.upcoming-body {
+  background-image: url(../images/background3.png);
+  height: 4300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* video and form */
+
+.upcoming-info {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 100px;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.upcoming-info p {
+  color: white;
+  opacity: 80%;
+  font-size: 20px;
+}
+
+.upcoming-video {
+  width: 600px;
+  float: left;
+  margin-top: 400px;
+}
+
+.info-right {
+  margin-top: 150px;
+}
+
+/* overview */
+.overview {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 200px;
+  display: flex;
+  color: white;
+  opacity: 80%;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.overview-title {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.overview-title h1 {
+  font-size: 40px;
+}
+
+/* speakers */
+
+.upcoming-speaker {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 200px;
+  opacity: 80%;
+}
+
+.up-speakers-title {
+  margin-bottom: 100px;
+}
+
+.up-speakers-title h1 {
+  color: white;
+  font-size: 40px;
+}
+
+.up-speakers-img {
+  justify-content: center;
+  text-align: center;
+}
+
+/* partners */
+
+.upcoming-partner {
+  margin-left: 140px;
+  margin-right: 140px;
+  margin-bottom: 200px;
+  color: white;
+}
+
+.partner-title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 80%;
+  margin-bottom: 100px;
+}
+
+.partner-combo {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* schedule */
+
+.schedule {
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.schedule h1 {
+  color: white;
+  text-align: center;
+  opacity: 80%;
+}
+
+.schedule-img {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 1370px) {
+  .embed-responsive {
+    margin-top: -100px;
+  }
+  .people {
+    height: 500px;
+  }
+  .partner-combo {
+    flex-direction: column;
+  }
+  .partner-combo p {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .upcoming-info {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0;
+  }
+
+  .upcoming-video {
+      margin-top: 200px;
+  }
+
+  .people {
+    height: 400px;
+  }
+  .schImg {
+      height: 700px;
+  }
+}

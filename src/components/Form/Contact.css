@@ -1,0 +1,39 @@
+.form-control {
+  background: #252e4f;
+  color: white;
+  border: none;
+}
+
+.message {
+  padding-bottom: 10px;
+}
+
+.forms {
+  margin-bottom: 200px;
+}
+
+button {
+  background: linear-gradient(to left, #183fc3, #2fb7f1);
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.thanks {
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.thanks p {
+    font-size: 40px;
+    color: white;
+    opacity: 80%;
+    margin-bottom: 50px;
+}
+
+.thanks button {
+    font-size: 20px;
+    padding: 10px 30px;
+}

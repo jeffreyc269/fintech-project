@@ -1,0 +1,63 @@
+.contact-body {
+  background: url(../images/contactus.png);
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1500px;
+}
+
+/* jumbotron */
+
+.jumbotron-fluid {
+  margin-top: 100px;
+}
+
+.jumbotron {
+  padding-top: 30px !important;
+}
+
+.jumbotron p {
+  padding-top: 50px;
+}
+
+.jumbotext {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotext h1 {
+  font-size: 60px;
+  color: white;
+  opacity: 80%;
+}
+
+.jumbotext p {
+  font-size: 20px;
+  color: white;
+  opacity: 80%;
+}
+
+.mail {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.mail a {
+    font-weight: 800;
+    color: white;
+}
+
+
+/* forms */
+
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

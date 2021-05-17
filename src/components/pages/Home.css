@@ -1,0 +1,304 @@
+.home-body {
+  background-image: url(../images/background.png);
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 6300px;
+}
+
+/* top of page */
+
+.top {
+  background-position: right;
+  width: initial;
+  background-repeat: no-repeat;
+  height: 800px;
+  opacity: 80%;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.top h1 {
+  font-size: 100px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.first {
+  margin-left: 140px;
+  margin-right: 140px;
+  padding-top: 100px;
+}
+
+.first p {
+  color: #b3d7e2;
+  font-size: 30px;
+  padding-bottom: 100px;
+}
+.register {
+  background: linear-gradient(to left, #183fc3, #2fb7f1);
+  border: none;
+  margin-right: 50px;
+}
+.register:hover {
+  background: none;
+}
+
+.details {
+  background: transparent;
+  border: none;
+}
+
+.details:hover {
+  background: linear-gradient(to left, #183fc3, #2fb7f1);
+}
+
+.embed-responsive {
+  width: 600px;
+  float: right;
+  margin-top: -200px;
+}
+
+/* carousel part */
+
+.moving {
+  padding-bottom: 200px;
+  background-repeat: no-repeat;
+  background-position: top center;
+  width: 100%;
+  background-size: 100%;
+}
+
+.Carousel {
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.carousel-indicators li,
+.carousel-control-prev,
+.carousel-control-next {
+  visibility: hidden;
+}
+
+/* key events */
+
+.key-events {
+  margin-bottom: 200px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.key-events-title {
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.key-events-title h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.key-events-title p {
+  color: white;
+  opacity: 70%;
+  font-size: 20px;
+}
+
+.card {
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.card-title {
+  color: white;
+  opacity: 85%;
+}
+
+.card-text {
+  color: white;
+  opacity: 65%;
+}
+
+.card-link {
+  color: #2fb7f1;
+}
+
+/* speakers */
+
+.speakers {
+  margin-bottom: 300px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.speakers-title h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.speakers-title p {
+  color: white;
+  opacity: 70%;
+  font-size: 20px;
+}
+
+/* people say */
+
+.people-say {
+  height: 600px;
+  margin-bottom: 200px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.people-text h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.people-text p {
+  color: white;
+  opacity: 70%;
+  font-size: 20px;
+}
+
+.people-button {
+  background: linear-gradient(to left, #183fc3, #2fb7f1) !important;
+}
+
+.people-div {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes {
+  float: left;
+  width: 50%;
+  margin: 10px;
+}
+
+/* partners */
+.partners {
+  padding-top: 0px !important;
+}
+
+.partners img {
+  padding-bottom: 0px !important;
+}
+
+.partners h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.partners-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-bottom: 300px;
+}
+
+/* newsletter */
+
+.newsletter {
+  margin-bottom: 200px;
+  margin-left: 140px;
+  margin-right: 140px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.newsletter-div {
+  width: 1400px;
+  text-align: center;
+  background-color: #1c274b;
+  padding: 100px;
+}
+
+.newsletter h1 {
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+.newsletter p {
+  color: white;
+  opacity: 70%;
+  font-size: 20px;
+  padding-bottom: 50px;
+}
+
+.input-group {
+  align-items: center;
+  justify-content: center;
+}
+
+.newsletter-email {
+  width: 500px;
+  height: 43px;
+  border-radius: 0.3rem;
+  background: #252e4f;
+  text-decoration: none;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.newsletter-button {
+  background: linear-gradient(to left, #183fc3, #2fb7f1);
+  border: none;
+}
+
+@media screen and (max-width: 1390px) {
+  .top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top h1 {
+    font-size: 50px;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0 !important;
+  }
+  .people-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .people-say {
+    margin-bottom: 400px;
+  }
+  .newsletter-div {
+    margin-top: -200px;
+  }
+  .embed-responsive {
+    margin-top: 0;
+  }
+  .card-title {
+    font-size: 30px !important;
+  }
+}

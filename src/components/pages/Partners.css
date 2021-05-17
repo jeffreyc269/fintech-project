@@ -1,0 +1,118 @@
+.body {
+  background-image: url(../images/background2.png);
+  height: 4000px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* jumbotron */
+
+.partner-jumbo {
+  padding-bottom: 100px;
+}
+
+.parent {
+  text-align: center;
+  color: white;
+}
+
+.text {
+  display: inline-block;
+  text-align: left;
+}
+
+.text h1 {
+  opacity: 90%;
+}
+
+.text p {
+  opacity: 80%;
+}
+
+.text a {
+  font-weight: 800;
+  color: white;
+}
+
+.jumbotron {
+  width: 100%;
+  background: transparent;
+  background-image: url(../images/jumboback.png);
+  background-repeat: no-repeat;
+}
+
+.jumbobutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent !important;
+}
+
+.know-button {
+  border: none;
+  padding: 10px 20px;
+}
+
+/* partner logos */
+
+.diamond,
+.session,
+.tripple,
+.medias,
+.community {
+  margin-bottom: 100px;
+}
+
+.tripple-partner {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tripple-partner h1 {
+  font-size: 20px;
+}
+
+.partners {
+  margin-left: 140px;
+  margin-right: 140px;
+  color: white;
+  padding-top: 300px;
+  text-align: center;
+}
+
+.partners img {
+  padding-bottom: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* policies */
+
+.policy {
+  margin-left: 140px;
+  margin-right: 140px;
+}
+
+.policy-text {
+  text-align: center;
+  color: white;
+  opacity: 80%;
+}
+
+.policy p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 1350px) {
+  .body {
+    height: 3800px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .body {
+    height: 3500px;
+  }
+}
